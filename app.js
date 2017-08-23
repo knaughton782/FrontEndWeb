@@ -2,8 +2,8 @@ var express = require("express");
 var path = require("path");
 const app = express();
 var opn = require("opn");
-//very important next 10 lines
-const port = 8080;
+
+const port = 8080; //indicates localhost port
 
 app.use(express.static("./views/"));
 app.use(express.static(path.resolve(__dirname + "/public"))); //adding css to public for file access
@@ -22,8 +22,8 @@ app.get("/about", function(req, res) {
 });
 
 //contact
-app.get("/contact", function(req, res) {
-  res.sendFile(path.resolve(__dirname + "/views/contact.html"));
+app.get("/favorites", function(req, res) {
+  res.sendFile(path.resolve(__dirname + "/views/favorites.html"));
 });
 
 //blog
