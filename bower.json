@@ -1,0 +1,21 @@
+{
+  "name": "frontendfoundations",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Kirsten Naughton <kirsten.naughton@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/knaughton782/FrontEndWeb",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.1"
+  }
+}

@@ -1,1 +1,25 @@
 /* page header */
+.container {
+  width: 90%;
+}
+
+nav {
+  background-color: #212121;
+  padding: 0 35px;
+}
+
+.nav-wrapper {
+  background-color: #212121;
+}
+
+.nav-mobile {
+  background-color: #424242;
+}
+
+h1 {
+  color: #212121;
+}
+
+small {
+  font-weight: 100;
+}

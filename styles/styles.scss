@@ -1,1 +1,23 @@
 @import 'header';
+
+.container {
+  width: 90%;
+}
+nav {
+  background-color: #212121;
+  padding: 0 35px;
+  .nav-wrapper {
+    background-color: inherit;
+  }
+  .nav-mobile {
+    background-color: inherit;
+  }
+}
+
+h1 {
+  color: #212121;
+}
+
+small {
+  font-weight: 100;
+}
