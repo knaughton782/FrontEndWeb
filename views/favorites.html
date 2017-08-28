@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../libs/materialize/dist/css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,500i,700,700i,900 ">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/libs/materialize/dist/css/materialize.css">
-        <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-        <link href="<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,500i,700,700i,900" rel="stylesheet">" rel="stylesheet">
-        <title>Favorites</title>
-    </head>
+    <title>Favorites</title>
+</head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="header"></div>
-<<<<<<< HEAD
-            
-=======
->>>>>>> a0db20f62529ec708fd9276dffe30a8c920c17ac
-        </div>
-        <div class="row">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="/">Hanging From Trees</a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li class="nav"><a href="/">Home</a></li>
-                        <li class="nav"><a href="/favorites">Our Favorites</a></li>
-                        <li class="nav"><a href="/about">The Tribe</a></li>
-                        <li class="nav"><a href="/blog">Blog</a></li>
+            <nav class="grey darken-4">
+                <div class=" nav-wrapper ">
+                    <a href="/" class="brand-logo right "><img src="../imgs/trees.png"/></a>
+                    <ul id="nav-mobile " class="left hide-on-med-and-down ">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/favorites">Our Favorites</a></li>
+                        <li><a href="/about">The Tribe</a></li>
+                        <li><a href="/blog">Blog</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="jumbotron">
-                    <h1>Hammocks and Stuff</br> <small>With the Tribe Stamp of Approval</small></h1>
-                    <p>The hammocks and accessories on this page have all been tested, slept in, camped with, and approved by
-                        the Tribe. These really are the favorites!</p>
+            <div class="header">
+                <div class="col s12">
+                    <img class="center responsive-img" src="../imgs/campfire.jpg" />
                 </div>
-
             </div>
-
         </div>
-        <div class="col-lg-12">
-            <button>Best Places to Buy Hammocks</button>
-            <ul class="button">
-                <li class="dropdown"><a href="https://www.bearbuttteam.com/">Bear Butt Hammocks</a></li>
-                <li class="dropdown"><a href="https://www.tentsile.com/">Tentsile.com</a></li>
-                <li class="dropdown"><a href="https://www.eaglesnestoutfittersinc.com/">Eagle's Nest Outfitters</a></li>
+        <div class="row">
+            <h2 class="center">These are truly our favorites!</h2>
+            <h3 class="flow-text center">All of these items have been tried and tested and have the Tribe stamp of approval!</h3>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <div class="card-panel center "><img src='../imgs/bear-butt.jpg' alt 'Bear Butt Hammocks'></a>
+                    <p>We've recently discovered the start-up company with quality hammocks and an awesome price. These are
+                        valued hammocks in our collection.</br> <a href="https://bearbuttteam.com">Bear Butt Hammocks</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card-panel center"><img src="../imgs/bearbutt-double.jpg" alt "BearButt Double"></a>
+                    <p>We like Bear Butt Hammocks so much, we had to show you a second one. This is a double...13 feet long
+                        and 6 feet wide! Just right for two or really comfy and roomy for one. </br><a href="https://bearbuttteam.com">Bear Butt Hammocks</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card-panel center "><img src="../imgs/double-tentsile.jpg" alt "Nothing Like Reading in a Hammock"></a>
+                    <p>Another type of double hammock from another type of company. If you want a Hammock Village, this is the
+                        place to start. The fun things on this site will make you giddy.</br><a href="https://tentsile.com">Tentsile.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card-panel center "><img src="../imgs/tentsile.jpg" alt 'Hammock Village Anyone?'></a>
+                    <p>Tentsile's famous triple. Make sure you have plenty of space and some strong trees to set up this one.</br>
+                        <a href="https://tentsile.com">Tentsile.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <div class="card-panel center"><img src="../imgs/kodiak-straps.png" alt "Tree Straps">
+                    <p>We are all about protecting the trees we are hanging from and the best way is with a good set of tree
+                        straps. We like these for the double thickness and loops for easy use.
+                        </br> <a href="https://www.bearbuttteam.com">Tree Straps from Bear Butt</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card-panel center"><img src="../imgs/reg-straps.jpg" alt "Tree Straps">
+                    <p>There are several types of tree straps. These basic straps protect the tree, hang your hammock, and are
+                        good for your pocketbook! </br><a href="https://amazon.com">Tree Straps on Amazon</a></br>...isn't
+                        everything eventually on Amazon?
+                    </p>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card-panel center "><img src="../imgs/tentsile-tent.jpg" alt "Hammock Tent">
+                    <p>Or you can just turn your awesome hammock into the floor of your tent and just live in the trees...</br>
+                        <a href="https://tentsile.com">Tentsile.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card-panel center "><img src="../imgs/stacked-tentsile.jpg" alt 'Hammock Village Anyone?'>
+                    <p>Tentsile's hammock treehouses in action! Add a rainfly to the top and you are ready to go!</br>
+                        <a href="https://tentsile.com">Tentsile.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <footer class="page-footer grey darken-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
 
-            </ul>
+                            <div class="footer-copyright">Copyright &copy 2017 - Hanging from Trees &amp; Co. All Rights Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
-
-    </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+    <script type="text/javascript " src="../libs/materialize/dist/js/materialize.min.js "></script>
+    <script src="../javascript/jquery.js "></script>
 </body>
 
 </html>

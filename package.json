@@ -4,15 +4,10 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-<<<<<<< HEAD
     "bower": "^1.8.0",
     "express": "^4.15.4",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.0",
-=======
-    "bootstrap": "^3.3.7",
-    "express": "^4.15.4",
->>>>>>> a0db20f62529ec708fd9276dffe30a8c920c17ac
     "materialize-css": "^0.100.1",
     "opn": "^5.1.0",
     "save": "^2.3.1"

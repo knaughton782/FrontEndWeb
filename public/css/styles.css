@@ -1,31 +1,56 @@
 /* page header */
-<<<<<<< HEAD
 .container {
   width: 90%;
 }
 
 nav {
-  background-color: #212121;
   padding: 0 35px;
+  border-radius: 6px;
 }
 
-.nav-wrapper {
-  background-color: #212121;
-}
-
-.nav-mobile {
-  background-color: #424242;
-}
-
-h1 {
-  color: #212121;
+nav .nav-wrapper {
+  border-radius: 6px;
 }
 
 small {
   font-weight: 100;
-=======
-li.dropdown {
-  margin: 5px;
-  padding: 0 5px;
->>>>>>> a0db20f62529ec708fd9276dffe30a8c920c17ac
+}
+
+.page-footer {
+  padding: 0 35px;
+  border-radius: 6px;
+}
+
+img {
+  border-radius: 6px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header {
+  border-radius: 6px;
+}
+
+.slider {
+  border-radius: 6px;
+}
+
+.slides {
+  border-radius: 6px;
+}
+
+.col.s12 {
+  border-radius: 6px;
+}
+
+.card-panel {
+  border-radius: 4px;
 }
